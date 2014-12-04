@@ -1,5 +1,5 @@
 
-## Write a short comment describing this function
+# don't look at this file, it is not part of the assignment
 
 makeCacheVector <- function(x = numeric()) {
 	m <- NULL
@@ -12,9 +12,6 @@ makeCacheVector <- function(x = numeric()) {
 	getmean <- function() m
 	list(set=set,get=get,setmean=setmean,getmean=getmean)
 }
-
-
-## Write a short comment describing this function
 
 cachemean <- function(x, ...) {
 	m <- x$getmean()
